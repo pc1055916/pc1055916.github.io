@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_search_s</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header_icon-pack" transform="translate(-439.000000, -71.000000)">
+            <g id="Group-7" transform="translate(439.000000, 71.000000)">
+                <rect id="Rectangle-41" x="0" y="0" width="30" height="30"></rect>
+                <path d="M19.8063,7.9547 C23.0783,11.2267 23.0783,16.5337 19.8063,19.8067 C16.5333,23.0787 11.2273,23.0787 7.9543,19.8067 C4.6813,16.5337 4.6813,11.2267 7.9543,7.9547 C11.2273,4.6817 16.5333,4.6817 19.8063,7.9547 Z" id="Stroke-1" stroke="#0F60AF"></path>
+                <path d="M19.8063,19.8062 L25.2383,25.2382" id="Stroke-3" stroke="#0F60AF" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

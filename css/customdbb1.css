@@ -1,0 +1,15 @@
+.menu-crm, .menu-test, .menu-scheduler, .menu-find{
+	
+	opacity: 1;
+	cursor: pointer;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease;
+    -ms-transition: opacity .25s ease;
+}
+	
+.menu-crm:hover, .menu-test:hover, .menu-scheduler:hover, .menu-find:hover{
+
+	opacity: 0.5;
+}

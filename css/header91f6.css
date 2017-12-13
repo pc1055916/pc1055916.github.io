@@ -1,0 +1,543 @@
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('SpoqaHanSans-Bold'), local('SpoqaHanSans-Bold'),
+    url(../fonts/SpoqaHanSans-Bold.eot) format('eot'),
+    url(../fonts/SpoqaHanSans-Bold.svg) format('svg'),
+    url(../fonts/SpoqaHanSans-Bold.ttf) format('truetype'),
+    url(../fonts/SpoqaHanSans-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('SpoqaHanSans-Regular'), local('SpoqaHanSans-Regular'),
+    url(../fonts/SpoqaHanSans-Regular.eot) format('eot'),
+    url(../fonts/SpoqaHanSans-Regular.svg) format('svg'),
+    url(../fonts/SpoqaHanSans-Regular.ttf) format('truetype'),
+    url(../fonts/SpoqaHanSans-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 200;
+    src: local('SpoqaHanSans-Thin'), local('SpoqaHanSans-Thin'),
+    url(../fonts/SpoqaHanSans-Thin.eot) format('eot'),
+    url(../fonts/SpoqaHanSans-Thin.svg) format('svg'),
+    url(../fonts/SpoqaHanSans-Thin.ttf) format('truetype'),
+    url(../fonts/SpoqaHanSans-Thin.woff) format('woff');
+}
+
+body, html{
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+
+.trs{
+	-webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/*==========
+HEADER
+===========*/
+
+/* LOGINED */
+.loginCheck.no{
+	display: none;
+}
+.loginCheck.yes.logined{
+	display: none;
+}
+.loginCheck.no.logined{
+	display: block;
+}
+
+header{
+	width: 100%;
+}
+.header{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	border-bottom: 1px solid #ced4da;
+  z-index: 7;
+}
+.headerTop{
+	width: 953px;
+  height: 120px;
+  margin: auto;
+}
+
+.logoBox{
+	float: left;
+	margin-top: 43px;
+	line-height: 42px;
+	cursor: pointer;
+}
+.logoBox > img{
+	margin-bottom: 3px;
+}
+.logoBox > p{
+	font-size: 28px;
+	font-weight: bold;
+	color: #868e96;
+	padding-left: 7px;
+	display: inline-block;
+}
+
+.searchBox{
+	position: relative;
+	float: left;
+	width: 400px;
+	margin: 38px 0 0 30px;;
+}
+.searchBox > input{
+	box-sizing: border-box;
+	width: 100%;
+	height: 48px;
+	font-size: 13px;
+	padding: 0 35px 0 15px;
+	border: 1px solid #0f60af;
+}
+.searchBox > img{
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	cursor: pointer;
+}
+.searchBox > div{
+	position: absolute; 
+	top: -20px; 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: #186db5;
+	cursor: pointer;
+}
+.subBox{
+	position: relative;
+	float: right;
+	height: 50px;
+	margin-top: 15px;
+}
+.subBoxContent{
+  position: absolute;
+  top: 28px;
+  right: 31px;
+	width: 170px;
+	background: #fff;
+	border: 1px solid #adb5bd;
+  border-bottom: 0;
+  box-shadow: 0 1px 5px #ced4da;
+  z-index: 1;
+  display: none;
+}
+.subBoxContent.active{
+	display: block;
+}
+.subBoxContent > div{
+	box-sizing: border-box;
+	height: 42px;
+	width: 100%;
+  padding: 0 13px;
+  font-size: 13px;
+  color: #868e96;
+  line-height: 42px;
+	border-bottom: 1px solid #adb5bd;
+}
+
+.subLoginBox{
+	box-sizing: border-box;
+	float: left;
+	width: 159px;
+	height: 29px;
+	padding: 4px 0; 
+	background: #fff;
+	border: 1px solid #adb5bd;
+	cursor: pointer;
+}
+.subLoginBox.active{
+	background: #f1f3f5;
+}
+.subLoginBox > p{
+text-align:center;
+	font-size: 12px;
+	color: #0f60af;
+	cursor: pointer;
+}
+.subLoginBox > img{
+	vertical-align: middle;
+}
+
+
+
+.subUserBox{
+	box-sizing: border-box;
+	float: left;
+	color: #868e96;
+	height: 29px;
+  line-height: 29px;
+  font-size: 13px;
+	cursor: pointer;
+}
+.subUserBox > p > span{
+	margin-left: 5px;
+}
+.subUserBox > p  > img{
+	vertical-align: middle;
+}
+.subUserContent{	
+  position: absolute;
+  top: 35px;
+  right: 37px;
+  width: 320px;
+  height: 360px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  box-shadow: 0 1px 5px #ced4da;
+  display: none;
+}
+.subUserContent.active{
+	display: block;
+}
+
+.subUserContentTop{
+	padding: 20px;
+	height: 110px;
+	border-bottom: 1px solid #ced4da;
+}
+.subUserContentTop > .gymThumbnail{
+  float: left;
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	background-position: center;
+  margin-right: 10px;
+}
+.subUserContent > p{
+	margin: 0;
+	padding: 10px 20px;
+	color: #212529; 
+}
+.subUserContent > p:hover{
+	font-weight: bold;
+}
+.subUserContent > p:nth-child(2){
+	color: #0f60af;  
+}
+
+.gymDetail{
+	float: left;    
+	padding: 7px 0;
+}
+.gymDetail > h1{
+	font-size: 15px;
+	color: #495057;
+	margin: 0;
+}
+.gymDetail > span{
+	font-size: 12px;
+	color: #adb5bd;
+}
+.gymDetail > p{
+	font-size: 12px;
+	color: #495057;
+}
+.gymDetail > p > span{
+	color: #fa5252;
+}
+.gymDetail > p > span:nth-last-child(1){
+	border: 1px solid #fa5252;
+	font-size: 11px;
+	color: #fa5252;
+	padding: 2px 9px;
+}
+
+.subMenuBox{
+	position: relative;
+  float: left;
+}
+.subMenuBtn{
+	margin: 6px 0 0 15px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.subMenuBtn:hover{
+	opacity: 1;
+}
+.subMenuContent{
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 302px;
+  height: 302px;
+  background: rgba(255,255,255,1);
+  border: 1px solid #ced4da;
+  box-shadow: 0 1px 5px #ced4da;
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+}
+.subMenuContent.active{
+	display: block;
+}
+.subMenuContent > .subMenu{
+	box-sizing: border-box;
+	float: left;
+	width: 100px;
+	height: 100px;
+  background-size: 55px 55px;
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+	color: #868E96;
+}
+.subMenuContent > .subMenu:hover{
+	border: 1px solid #69E3F1;
+	color: #212529;
+}
+.subMenuContent > .subMenu > p{
+	font-size: 13px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+.headerBottom{
+	font-size: 14px;
+	color: #495057;
+	border-top: 1px solid #ced4da;
+}
+.headerBottom > div{
+	position: relative;
+	width: 956px;
+	height: 50px;
+	line-height: 50px;
+	margin: auto;
+	font-size: 18px;
+}
+
+
+.headerMenu{
+	margin-right: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #495057;
+	display: inline-block;
+	cursor: pointer;
+}
+.headerMenu.active{
+	color: #357BDE;
+	border-bottom: 1px solid #2e70cf;
+}
+
+
+/*======
+MOBILE HEADER
+=======*/
+
+.mbHeader{
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 95px;
+	background: #fff;
+}
+.subMbHeader{
+	border-bottom:1px solid #d0d0d0;
+}
+.mbTopBox{
+	position: relative;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 13px;
+	background: #fff;
+}
+.mbLoginBox,
+.mbUserBox{
+	float: left;
+	font-size: 13px;
+	color: #0f60af;
+	cursor: pointer;
+}
+.mbLogoBox{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 150px;
+	margin: auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #868e96;
+	cursor: pointer;
+}
+.mbFittHome{
+	float: right;
+  margin:  0 6px;
+  height: 35px;
+  cursor: pointer;
+}
+.mbSubMenu{
+	float: right;
+  cursor: pointer;
+}
+.mbSearchBox{
+	position: relative;
+  box-sizing: border-box;
+  background: #fff;
+	width: 100%;
+	padding: 0 13px;
+}
+.mbSearchBox > input[type=text]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 0;
+	border: 0;
+	font-size: 13px;
+	font-weight: 500;
+	color: #212529;
+	text-align: center;
+	border: 1px solid #0f60af;
+}
+.mbSearchBox > img{
+	position: absolute;
+	top: 16px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.mbSubMenuBox{
+	position: fixed;
+  box-sizing: border-box;
+	top: 0;
+	left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  overflow: scroll;
+  background: #fff;
+  z-index: 7;
+  display: none;
+}
+.mbSubMenuBox > .subMenu{
+	position:relative;
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	color: #495057;
+	line-height: 60px;
+	border-bottom: 1px solid #ced4da;
+}
+.mbSubMenuBox > img{
+	cursor:pointer;
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	cursor: pointer;
+}
+
+.text-blue{
+	color:#0f60af;
+}
+
+.subMenu{
+	cursor: pointer;
+}
+
+.subMenu>span{
+	position:absolute;
+	top:0;
+	right:10px;
+	color:#0f60af;
+	font-size:13px;
+	}
+
+.mbUserMenuBox{
+	position: fixed;
+  box-sizing: border-box;
+	top: 0;
+	left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f1f3f5;
+  z-index: 3;
+  display: none;
+}
+.mbUserMenuBox > img{
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	cursor: pointer;
+}
+.mbUserContentTop{
+  padding: 15px;
+  height: 102px;
+  background: #fff;
+  border-bottom: 1px solid #ced4da;	
+} 
+.mbUserContentTop > .gymThumbnail{
+  float: left;
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	background-position: center;
+  margin-right: 10px;
+}
+.mbUserContentTop > .gymDetail > p{
+	margin-top: 5px;	
+}
+.mbUserContentMiddle{
+	font-size: 16px; 
+	line-height: 50px; 
+	padding: 0 13px; 
+	background: #fff;
+	margin-top: 10px;
+  border-bottom: 1px solid #ced4da;
+  cursor: pointer;
+}
+.mbUserContentMiddle > span{
+	color: #0f60af;
+}
+.mbUserContentMiddle > img{
+	float: right; 
+	margin: 17px 0;
+}
+.mbUserContentBottom{
+	font-size: 16px; 
+	background: #fff;
+	margin: 10px 0 40px;
+  border-bottom: 1px solid #ced4da;
+}
+.mbUserContentBottom:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.mbUserContentBottom > .subMenu{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+  background-size: 80px;
+  background-position: center 0;
+  background-repeat: no-repeat;
+	border-right: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+	color: #868E96;
+}
+.mbUserContentBottom > .subMenu:nth-child(3n){
+  border-right: 0;
+}
+.mbUserContentBottom > .subMenu:nth-child(n+4){
+  border-bottom: 0;
+}
+.mbUserContentBottom > .subMenu > p{
+	font-size: 13px;
+	text-align: center;
+	margin-top: 75px;
+}
+
+
+

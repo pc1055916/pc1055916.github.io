@@ -1,0 +1,49 @@
+.visible-mb{
+  display: none;
+}
+.hidden-mb{
+  display:;
+}
+
+@media screen and (max-width: 800px) {
+  .fr-11px{
+    font-size: 11px !important;
+  }
+  .fr-12px{
+    font-size: 12px !important;
+  }
+  .fr-13px{
+    font-size: 13px !important;
+  }
+  .fr-15px{
+    font-size: 15px !important;
+  }
+  .fr-18px{
+    font-size: 18px !important;
+  }
+  .fr-20px{
+    font-size: 20px !important;
+  }
+  .fr-23px{
+    font-size: 23px !important;
+  }
+  .fr-25px{
+    font-size: 25px !important;
+  }
+  .fr-30px{
+    font-size: 30px !important;
+  }
+  .fr-40px{
+    font-size: 40px !important;
+  }
+  .fr-50px{
+    font-size: 50px !important;
+  }
+  .visible-mb{
+    display: block;
+  }
+  .hidden-mb{
+    display: none;
+  }
+
+}    

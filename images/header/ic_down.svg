@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header_icon-pack" transform="translate(-204.000000, -203.000000)">
+            <g id="Group-16" transform="translate(204.000000, 203.000000)">
+                <rect id="Rectangle-42" x="0" y="0" width="16" height="16"></rect>
+                <polyline id="Page-1" stroke="#868E96" stroke-width="1.5" transform="translate(8.500000, 8.000000) rotate(90.000000) translate(-8.500000, -8.000000) " points="5.5 13.5 10.6035739 8.31575712 5.5 3.13151424"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

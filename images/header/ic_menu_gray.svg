@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_menu_gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header_icon-pack" transform="translate(-229.000000, -168.000000)">
+            <g id="Group-19" transform="translate(229.000000, 168.000000)">
+                <rect id="Rectangle-42" x="0" y="0" width="16" height="16"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="0.5" y="1" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="6.5" y="1" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="12.5" y="1" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="0.5" y="6.5" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="6.5" y="6.5" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="12.5" y="6.5" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="0.5" y="12" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="6.5" y="12" width="3" height="3"></rect>
+                <rect id="Rectangle-8" fill="#ADB5BD" x="12.5" y="12" width="3" height="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
